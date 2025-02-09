@@ -1,0 +1,100 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 972px;
+}
+
+.u-section-1 .u-list-1 {
+  margin-top: 165px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-auto-columns: 33.3333%;
+  grid-template-columns: repeat(3, 33.3333%);
+  min-height: 284px;
+  grid-gap: 0px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 10px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 221px;
+  height: 212px;
+  background-image: url("images/chewi.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 10px;
+}
+
+.u-section-1 .u-image-2 {
+  width: 221px;
+  height: 212px;
+  background-image: url("images/20220531_070227.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 10px;
+}
+
+.u-section-1 .u-image-3 {
+  width: 221px;
+  height: 212px;
+  background-image: url("images/2014-06-1721.05.55.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 18px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 23px 13px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: 33.333333333333336%;
+    grid-template-columns: repeat(3, 33.333333333333336%);
+    min-height: 234px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 212px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 212px;
+  }
+
+  .u-section-1 .u-image-3 {
+    width: 212px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: 50%;
+    grid-template-columns: repeat(2, 50%);
+    min-height: 538px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: 100%;
+    grid-template-columns: 100%;
+  }
+}
